@@ -1,19 +1,140 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: largest 4s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 20%
+    z-index: 2
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: vanish 4s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 10%
+    z-index: 1
 
-
-@keyframes float1
+@keyframes largest
   0%
-    transform: translateY(20px)
-
+    transform: scale(0.8)
   100%
-    transform: translateY(0px)
+    transform: scale(1)
+
+@keyframes vanish
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+  
+.banner-principal__row .banner-principal__img
+  width: 34%
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.BGM01, .BGM07, .BGM11
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGM01
+  background: linear-gradient(to bottom, #DCCEE3, #DCCEE3, #FFF, #FFF)
+
+.BG02
+  background-color: #F3F9FF
+
+.BGR03
+  background-color: $color-primario
+
+.BG04
+  background-color: #C7A5FF
+
+.BG05
+  background-color: #E01650
+
+.BG05.acordion__activo
+  background-color: #F9D0DC
+
+.BG06
+  background-color: #FFF0CD
+
+.BG06.acordion__activo
+  background-color: #FFB206
+
+.BGM07
+  background-color: #EEE5FE
+
+.BG08
+  background-color: #DCCEE3
+
+.BG09
+  background-color: #CAB7E9
+
+.BG10
+  background-color: #E9DCFD
+
+.BG11, .BGM11
+  background-color: #FFF4D9
+
+.BG12
+  background: linear-gradient(to bottom, #FFF0CD, #FFF0CD, #FFF)
+
+.tabs-b__tab
+  background-color: #F4EDFE
+
+.tabs-b__tab--active
+  background-color: $white
+
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #CAB5D5
+
+.tabs-a__tab
+  background-color: #E8E8E8
+  padding: 10px 15px
+
+.BGR03
+  border-radius: 30px
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li
+  display: flex
+
+.acordion__accion__btn--a i
+  color: #E01650
+
+.img-infografica__item
+  width: 5.0%
+
+.img-01
+  position: absolute
+  left: 0px
+  @media (max-width: $bp-max-md)
+    position: relative
+    left: 0
+
+.tarjeta.color-primario *
+  color: $color-sistema-texto
+
+.slyder-a__bullets__item--active
+  background-color: #E01650 !important
+
+.slyder-a__bullets__item
+  background-color: #DD8EB0
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #E01650
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+  
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow-white.svg")
+
+.slyder-a__btn--sigt
+  transform: rotate(0deg) !important
+
+.slyder-a__btn--atrs
+  transform: rotate(180deg) !important
