@@ -20,7 +20,7 @@
         .row.justify-content-center.px-4
           .col-lg-6.order-lg-1.order-2
             .h4 Equipo de respuesta a incidentes
-            p.mb-0 Equipo con miembros debidamente capacitados y confiables que se encarga de manejar, apropiadamente, los incidentes durante su ciclo de vida. Se conocen como equipo de respuesta a incidentes de seguridad de la información ISIRT, del inglés #[em Information Security Incident Response Team]. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, para proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, entre otras.
+            p.mb-0 Equipo con miembros debidamente capacitados y confiables que se encarga de manejar, apropiadamente, los incidentes durante su ciclo de vida. Se conocen como #[b equipo de respuesta a incidentes de seguridad de la información ISIRT], del inglés #[em Information Security Incident Response Team]. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, para proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, entre otras.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema6/img02.png' alt="Imagen decorativa")
         .row.justify-content-center.px-4
@@ -56,7 +56,7 @@
         .row.justify-content-center.px-4
           .col-lg-6.order-lg-1.order-2
             .h4 Respuesta a incidentes
-            p.mb-0 Acciones que se aplican para mitigar o resolver un incidente de seguridad; pueden enfocarse en proteger para evitar impactos adversos mayores, y en restaurar para recuperar elementos impactados y lograr volver a las operaciones normales de un sistema de información, incluyendo sus datos e información.
+            p.mb-0 Acciones que se aplican para mitigar o resolver un incidente de seguridad; pueden enfocarse en #[b proteger] para evitar impactos adversos mayores, y en #[b restaurar] para recuperar elementos impactados y lograr volver a las operaciones normales de un sistema de información, incluyendo sus datos e información.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema6/img08.png' alt="Imagen decorativa")
         .row.justify-content-center.px-4
@@ -84,7 +84,7 @@
           img.mx-auto(src="@/assets/curso/tema2/img02.svg")
         .col-lg-6.col-md(data-aos="fade-left")
           .titulo-segundo.color-primario  
-            h3 Estándares y #[em Frameworks] para la gestión de incidentes de seguridad digital
+            h3 Estándares y #[em frameworks] para la gestión de incidentes de seguridad digital
           p Para profundizar en el conocimiento, asimilación e importancia de tales estándares, para la gestión de incidentes de seguridad, haga atento estudio del Anexo_3_EstandaresYFrameworks.
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_EstandaresYFrameworks.pdf')" target="_blank" type="application/pdf")
             span Descargar

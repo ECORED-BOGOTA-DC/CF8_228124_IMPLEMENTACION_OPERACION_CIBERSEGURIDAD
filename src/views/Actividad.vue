@@ -10,12 +10,12 @@
             img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo
-          h2 Conceptualizando la Seguridad Digital: monitoreo y respuesta de incidentes
+          h2 Conceptualizando la seguridad digital: monitoreo y respuesta de incidentes
         p.mb-4 Establecer un marco conceptual para comprender y aplicar los fundamentos del monitoreo y la respuesta de incidentes en seguridad digital.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar
+              p.fw-bold.mb-0 Relacionar términos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

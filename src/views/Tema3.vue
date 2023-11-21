@@ -11,7 +11,7 @@
       .col-lg-8.order-lg-1.order-2
         p(data-aos="fade-right") Un centro de operaciones de seguridad o SOC, se puede entender como la conformación de un equipo de técnicos, profesionales y especialistas con habilidades en seguridad digital e infraestructura tecnológica que se apoyan en el uso de herramientas #[em hardware] y #[em software] para lograr cumplir con la responsabilidad de detectar, analizar y responder ante eventos, vulnerabilidades e incidentes de ciberseguridad.
         .cajon.color-acento-contenido.p-4(data-aos="fade-right") 
-          p.mb-0 El Centro de Operaciones de Seguridad, SOC, se refiere al equipo responsable de garantizar la seguridad de la información. El SOC es una plataforma que permite la supervisión y administración de la seguridad del sistema de información a través de herramientas de recogida, correlación de eventos e intervención remota. El SIEM (#[em Security Information Event Management]) es la principal herramienta del SOC ya que permite gestionar los eventos de un sistema de información (Oracle.com, 2021).
+          p.mb-0 El Centro de Operaciones de Seguridad, SOC, se refiere al equipo responsable de garantizar la seguridad de la información. El SOC es una plataforma que permite la supervisión y administración de la seguridad del sistema de información a través de herramientas de recogida, correlación de eventos e intervención remota. El SIEM (#[em Security Information Event Management]) es la principal herramienta del SOC, ya que permite gestionar los eventos de un sistema de información (Oracle.com, 2021).
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img01.png' alt="Imagen decorativa")
     
@@ -108,14 +108,14 @@
           .tarjeta.BG09.p-3(x="20.4%" y="75%" numero="+")
             p.mb-0 En el marco de cumplimientos legales, contractuales y de las estrategias operacionales que la compañía haya establecido. 
           .tarjeta.BG09.p-3(x="78%" y="75%" numero="+")
-            p.mb-0 Se deben considerar los sistemas, servicios y aplicaciones, como los servidores de bases de datos y aplicaciones, que actuarán como fuentes de eventos para el SIEM."
+            p.mb-0 Se deben considerar los sistemas, servicios y aplicaciones, como los servidores de bases de datos y aplicaciones, que actuarán como fuentes de eventos para el SIEM.
       .col-lg-6.mb-lg-0.mb-4(data-aos="fade-left")
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure(style="width: 95%")
               img(src='@/assets/curso/tema3/img10.svg')
           .tarjeta.BG09.p-3(x="20%" y="77%" numero="+")
-            p.mb-0 Es esencial considerar las capacidades del personal disponible y definir responsabilidades alcanzables dentro del contexto, asegurando una asignación adecuada y realista de tareas."
+            p.mb-0 Es esencial considerar las capacidades del personal disponible y definir responsabilidades alcanzables dentro del contexto, asegurando una asignación adecuada y realista de tareas.
           .tarjeta.BG09.p-3(x="74.5%" y="77%" numero="+")
             p.mb-0 De acuerdo con el presupuesto, recursos y herramientas de ciberseguridad que se destinen para la implementación y operación del SOC se establece el alcance y objetivos que se permitan cumplir.
           

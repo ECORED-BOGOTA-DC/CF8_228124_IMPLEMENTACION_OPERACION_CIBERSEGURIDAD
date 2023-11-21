@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Monitoreo y respuesta de incidentes de seguridad digital',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz fortalecerá su capacidad de asimilar y aplicar conceptos para la realización de actividades de monitoreo y respuesta de incidentes de la seguridad digital; igualmente afianzará su capacidad de comprender los conceptos de análisis de <em>logs</em>, vulnerabilidades e incidentes.',
+      'Con el estudio de este componente, el aprendiz fortalecerá su capacidad de asimilar y aplicar conceptos para la realización de actividades de monitoreo y respuesta de incidentes de la seguridad digital; igualmente, afianzará su capacidad de comprender los conceptos de análisis de <em>logs</em>, vulnerabilidades e incidentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -58,7 +58,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Fundamentos de SOC - <em>Security Operation Center</em>em>',
+        titulo: 'Fundamentos de SOC - <em>Security Operation Center</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -175,7 +175,7 @@ export default {
     {
       tema: '1. Monitoreo y análisis de <em>logs</em>',
       referencia:
-        'Alonso, M. (2016). Gestión de <em>logs</em>. [Trabajo fin de máster, Universidad Internacional de La Rioja, Logroño]. Repositorio Institucional UNIR.',
+        'Alonso, M. (2016). <em>Gestión de logs</em>. [Trabajo fin de máster, Universidad Internacional de La Rioja, Logroño]. Repositorio Institucional UNIR.',
       tipo: 'Trabajo de grado para máster',
       link:
         'https://reunir.unir.net/bitstream/handle/123456789/3618/ALONSO-ALEGRE%20DIEZ%2C%20MARIA%20BEGO%C3%91A.pdf?sequence=1&isAllowed=y',
@@ -183,14 +183,14 @@ export default {
     {
       tema: '2. Fundamentos de SIEM',
       referencia:
-        'Avella, J., Calderón, L., y Mateus, C. (2015). Guía metodológica para la gestión centralizada de registros de seguridad a través de un SIEM.',
+        'Avella, J., Calderón, L., y Mateus, C. (2015). <em>Guía metodológica para la gestión centralizada de registros de seguridad a través de un SIEM.</em>',
       tipo: 'Guía metodológica. Documento en línea',
       link:
         'https://repository.ucatolica.edu.co/bitstream/10983/2847/1/GU%C3%8DA%20METODOL%C3%93GICA%20PARA%20LA%20GESTI%C3%93N%20CENTRALIZADA%20DE%20REGISTROS%20DE%20SEGURIDAD%20A%20TRAV%C3%89S%20DE%20UN%20SIEM.pdf',
     },
     {
       tema: '2. Fundamentos de SIEM',
-      referencia: 'AT&T Cybersecurity. (2021). Deployment guide.',
+      referencia: 'AT&T Cybersecurity. (2021). <em>Deployment guide</em>.',
       tipo: 'Guía de implementación. Documento en línea',
       link:
         'https://cybersecurity.att.com/documentation/resources/pdf/usm-appliance-deployment-guide.pdf',
@@ -198,7 +198,7 @@ export default {
     {
       tema: '2. Fundamentos de SIEM',
       referencia:
-        'López, J. (2017). Análisis y gestión de vulnerabilidades de sistemas informáticos con <em>software</em> libre (AGVISL).',
+        'López, J. (2017). <em>Análisis y gestión de vulnerabilidades de sistemas informáticos con software libre (AGVISL)</em>.',
       tipo: 'Documento en línea',
       link:
         'http://openaccess.uoc.edu/webapps/o2/bitstream/10609/72567/6/jlopezfernanTFG0118memoria.pdf',
@@ -206,7 +206,7 @@ export default {
     {
       tema: '4. Técnicas de recopilación de información',
       referencia:
-        'García, J. (2015). Hacking ético: cacería de vulnerabilidades.',
+        'García, J. (2015). <em>Hacking ético: cacería de vulnerabilidades</em>.',
       tipo: 'Documento en línea',
       link:
         'https://owasp.org/www-pdf-archive/Hacking_Etico_Cacer%C3%ADa_de_Vulnerabilidades.pdf',
@@ -214,7 +214,7 @@ export default {
     {
       tema: '4. Técnicas de recopilación de información',
       referencia:
-        'Offensive Security. (2021). Recopilación de información en Metasploit.',
+        'Offensive Security. (2021). <em>Recopilación de información en Metasploit</em>.',
       tipo: 'Documento en línea',
       link:
         'https://www.offensive-security.com/metasploit-unleashed/information-gathering/',
@@ -222,21 +222,21 @@ export default {
     {
       tema: '4. Técnicas de recopilación de información',
       referencia:
-        'Kali Tools. (2021). Listado de herramientas de Kali Linux. Kali.',
+        'Kali Tools. (2021). <em>Listado de herramientas de Kali Linux. Kali</em>.',
       tipo: 'Web',
       link: 'https://tools.kali.org/tools-listing',
     },
     {
       tema: '5. Análisis de vulnerabilidades técnicas',
       referencia:
-        'Owasp Foundation. (2017). Los diez riesgos más críticos en aplicaciones web. Owasp.',
+        'Owasp Foundation. (2017). <em>Los diez riesgos más críticos en aplicaciones web</em>. Owasp.',
       tipo: 'Otro',
       link: 'https://wiki.owasp.org/images/5/5e/OWASP-Top-10-2017-es.pdf',
     },
     {
       tema: '5. Análisis de vulnerabilidades técnicas',
       referencia:
-        'Scarfone, K., Souppaya, M., Cody, A., y Orebaugh, A. (2008). Technical Guide to Information Security Testing and Assessment.',
+        'Scarfone, K., Souppaya, M., Cody, A., y Orebaugh, A. (2008). <em>Technical Guide to Information Security Testing and Assessment</em>.',
       tipo: 'Documento en línea',
       link:
         'https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf ',
@@ -244,7 +244,7 @@ export default {
     {
       tema: '5. Análisis de vulnerabilidades técnicas',
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). Guía metodológica de pruebas de efectividad.',
+        'Ministerio de Tecnologías de la Información y Comunicaciones. (2016). <em>Guía metodológica de pruebas de efectividad</em>.',
       tipo: 'Documento en línea',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf ',
@@ -281,7 +281,7 @@ export default {
     {
       termino: 'Equipo de respuesta a incidentes',
       significado:
-        'equipo de una organización con miembros debidamente capacitados y confiables que se encarga de darle el manejo apropiado a los incidentes durante su ciclo de vida. Los equipos de respuesta a incidentes se conocen como equipo de respuesta a incidentes de seguridad de la información ISIRT, del inglés Information Security Incident Response Team. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, con el propósito de proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, etc.',
+        'equipo de una organización con miembros debidamente capacitados y confiables que se encarga de darle el manejo apropiado a los incidentes durante su ciclo de vida. Los equipos de respuesta a incidentes se conocen como equipo de respuesta a incidentes de seguridad de la información ISIRT, del inglés <em>Information Security Incident Response Team</em>. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, con el propósito de proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, etc.',
     },
     {
       termino: 'Incidente de seguridad digital',
@@ -314,7 +314,7 @@ export default {
       referencia:
         'Avella, J., Calderón, L., y Mateus, C. (2015). <em>Guía metodológica para la gestión centralizada de registros de seguridad a través de un SIEM.</em>',
       link:
-        'https://repository.ucatolica.edu.co/bitstream/10983/2847/1/GU%C3%8DA%20METODOL%C3%93GICA%20PARA%20LA%20GESTI%C3%93N%20CENTRALIZADA%20DE%20REGISTROS%20DE%20SEGURIDAD%20A%20TRAV%C3%89S%20DE%20UN%20SIEM.pdf',
+        'https://repository.ucatolica.edu.co/server/api/core/bitstreams/f233d3b4-04cb-4ba5-a9cd-26412e0f2b87/content',
     },
     {
       referencia:

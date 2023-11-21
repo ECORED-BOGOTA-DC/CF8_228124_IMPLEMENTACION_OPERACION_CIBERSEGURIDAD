@@ -36,7 +36,7 @@
               | Establecimiento de objetivos y alcance.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
-              p.mb-0 Recopilación o Information #[em Gathering, Footprinting], escaneo y enumeración.
+              p.mb-0 Recopilación o #[em Information Gathering, Footprinting], escaneo y enumeración.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
               | Ejecución, obtención de accesos y logro de objetivos planteados con evidencias.
@@ -57,7 +57,7 @@
           ul.lista-ul--color
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
-              p.mb-0 #[b Vector de red]: un ataque puede explotar una vulnerabilidad de manera remota por medio de servicios basados en internet.
+              p.mb-0 #[b Vector de red]: un ataque puede explotar una vulnerabilidad de manera remota por medio de servicios basados en Internet.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
               p.mb-0 #[b Vector adyacente]: el ataque se puede realizar a la vulnerabilidad desde la misma red adyacente, en una misma red local.
@@ -82,7 +82,7 @@
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Objetivos
+      h2 4.1 Tipos de #[em Information Gathering]
     
     p(data-aos="fade-right") Los tipos de recolección de información hacen referencia a las distintas técnicas y variados métodos para dicha actividad; tales técnicas y métodos son de suma importancia y requieren ser comprendidas y asimiladas suficientemente con miras a su aplicación.
     p.mb-5(data-aos="fade-right") Ahora, se presenta una serie de tipos de técnicas de recopilación de información, se invita a estudiarlas a conciencia a través de la infografía:
@@ -104,7 +104,7 @@
                 p.mb-0 Se recolecta información de la red (#[em hosts] e IP, puertos, #[em software] y aplicaciones en red).
               li(style="margin-bottom: 2px")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Se recolecta información de servidores de internet (DNS, direcciones IP públicas, servicios o puertos públicos, #[em software]/aplicaciones públicas).
+                p.mb-0 Se recolecta información de servidores de Internet (DNS, direcciones IP públicas, servicios o puertos públicos, #[em software]/aplicaciones públicas).
           .tarjeta.BG10.p-4(titulo="<em>Scanning</em>")
             .h4 <em>Scanning</em> o exploración
             p.mb-0 Técnicas que se utilizan para reconocer #[em host], puertos y servicios que se encuentran dentro de una red, con el fin de obtener la mayor cantidad de datos que se utilizan en la creación de una visión general de la organización para preparar un ataque a la misma.
@@ -127,7 +127,7 @@
     p.mb-5(data-aos="fade-right") Las características principales de las técnicas de recopilación de información se describen a continuación:
 
     .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-4.col-sm-6.col-7.mb-xl-0.mb-4(data-aos="fade-right")
+      .col-xl-3.col-lg-4.col-sm-6.col-8.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-primario.h-100(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -135,7 +135,7 @@
             .tarjeta-flip__contenido.p-xxl-5.p-xl-4.p-md-5.p-4
               h4.text-center Uso de fuentes abiertas o públicas
               p.text-center.mb-5 Obtiene la mayor cantidad de información de fuentes públicas, internet, redes sociales, plataformas, etc., que permiten conocer a una organización o a las personas.
-      .col-xl-3.col-lg-4.col-sm-6.col-7.mb-xl-0.mb-4(data-aos="flip-right")
+      .col-xl-3.col-lg-4.col-sm-6.col-8.mb-xl-0.mb-4(data-aos="flip-right")
         .tarjeta.tarjeta-flip.color-primario.h-100(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -143,7 +143,7 @@
             .tarjeta-flip__contenido.p-xxl-5.p-xl-4.p-md-5.p-4
               h4.text-center Exploración
               p.text-center.mb-5 Realiza procesos de escaneos técnicos no intrusivos para obtener datos técnicos de #[em hosts], puertos, servicios y vulnerabilidades para una mejor preparación de las pruebas de intrusión.     
-      .col-xl-3.col-lg-4.col-sm-6.col-7.mb-xl-0.mb-4(datxlaos="flip-left")
+      .col-xl-3.col-lg-4.col-sm-6.col-8.mb-xl-0.mb-4(datxlaos="flip-left")
         .tarjeta.tarjeta-flip.color-primario.h-100(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -151,7 +151,7 @@
             .tarjeta-flip__contenido.p-xxl-5.p-xl-4.p-md-5.p-4
               h4.text-center Perfilamiento
               p.text-center.mb-0 Aplica un perfilamiento del objetivo con la información obtenida que permite aplicar habilidades de ingeniería social para obtener más información relevante.
-      .col-xl-3.col-lg-4.col-sm-6.col-7.mb-xl-0.mb-4(datxlaos="fade-left")
+      .col-xl-3.col-lg-4.col-sm-6.col-8.mb-xl-0.mb-4(datxlaos="fade-left")
         .tarjeta.tarjeta-flip.color-primario.h-100(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -176,44 +176,44 @@
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em FOCA]
+                p.mb-0 FOCA
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Goofile]
+                p.mb-0 Goofile
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Maltego]
+                p.mb-0 Maltego
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Nessus Essentials]
+                p.mb-0 Nessus Essentials
           .col-lg-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Nmap / ZenMap]
+                p.mb-0 Nmap / ZenMap
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em NSLookup]
+                p.mb-0 NSLookup
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em NTop]
+                p.mb-0 NTop
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em OpenVas]
+                p.mb-0 OpenVas
           .col-lg-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
-                | SET #[em Toolkit]
+                | SET Toolkit
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
                 | SPARTA
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Wireshark]
+                p.mb-0 Wireshark
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 #[em Whois Lookup]
+                p.mb-0 Whois Lookup
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema4/img13.png' alt="Imagen decorativa")
     
@@ -223,8 +223,8 @@
           img.mx-auto(src="@/assets/curso/tema2/img02.svg")
         .col-lg-6.col-md(data-aos="fade-left")
           .titulo-segundo.color-primario  
-            h3 Kali Tools / Tool Documentation
-          p Conozca más herramientas y sus descripciones en kali.org #[em Kali Linux Tools Listing].
+            h3 Kali Tools / #[em Tool Documentation]
+          p Conozca más herramientas y sus descripciones en kali.org Kali Linux Tools Listing.
           a.boton.color-acento-botones.texto-blanco(href="https://tools.kali.org/tools-listing" target="_blank")
             span Descargar
             i.fas.fa-file-download

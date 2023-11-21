@@ -60,7 +60,7 @@
           div.px-2(titulo="<em>Host</em>")
             p Son puntos de conexión final en una red, tales como computadores, tabletas y dispositivos móviles, los mismos generan diversos #[em logs] que se describen a continuación.
             .tarjeta.tarjeta--blanca.p-4
-              .h5.mb-0 #[em Logs] de consola, #[em logs] de sistemas #[em (Syslog), job log, operlog, hard-copy log].
+              .h5.mb-0 #[em Logs] de consola, #[em logs] de sistemas (Syslog), #[em job log, operlog, hard-copy log].
           div.px-2(titulo="Windows")
             p La información sobre registros en Windows se presenta en los registros de eventos, que son sucesos que se almacenan en un registro de eventos en el equipo y se pueden observar en el visor de eventos de Windows. Incluyen eventos relacionados con el sistema, aplicaciones, seguridad y configuración.
             .tarjeta.tarjeta--blanca.p-4
@@ -93,7 +93,7 @@
                   .h5.mb-0 Next Generation Firewall.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-chevron-circle-right(style="color: #FFB206;")
-                  .h5.mb-0 Antimalware.
+                  .h5.mb-0 #[em Antimalware].
                 li(style="margin-bottom: 2px")
                   i.fas.fa-chevron-circle-right(style="color: #FFB206;")
                   .h5.mb-0 Sistema de detección de intrusiones (IDS).
@@ -105,7 +105,7 @@
             .tarjeta.tarjeta--blanca.p-4
               .h5.mb-0 Esta es información que se utiliza para el filtrado y/o reporte de Spam o correos maliciosos.
           div.px-2(titulo="Servidores de aplicaciones")
-            p Son servidores que soportan herramientas #[em software] y proporcionan servicios y aplicaciones en la red pública (en internet) o privada (dentro de la empresa). Los mismos generan una serie de #[em logs] basados en su sistema operativo.
+            p Son servidores que soportan herramientas #[em software] y proporcionan servicios y aplicaciones en la red pública (en Internet) o privada (dentro de la empresa). Los mismos generan una serie de #[em logs] basados en su sistema operativo.
             .tarjeta.tarjeta--blanca.p-4
               .h5.mb-0 Según servicios y aplicaciones que proporciona, dichos #[em logs] son muy útiles para un SIEM y, especialmente, para los procesos de auditoría de sistemas.
           div.px-2(titulo="Sistemas de monitorización")
@@ -131,9 +131,9 @@
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Características del monitoreo y análisis de logs
+      h2 1.2 Características del monitoreo y análisis de #[em logs]
     
-    p(data-aos="fade-right") El monitoreo y análisis de #[em logs] puede darse de manera automatizada o manual. Actualmente se automatizan en la mayoría de casos para facilitar el análisis y la toma de acciones ante eventos, logrando de manera rápida el control de eventos, amenazas, vulnerabilidades e incidentes adversos.
+    p(data-aos="fade-right") El monitoreo y análisis de #[em logs] puede darse de manera automatizada o manual. Actualmente, se automatizan en la mayoría de casos para facilitar el análisis y la toma de acciones ante eventos, logrando de manera rápida el control de eventos, amenazas, vulnerabilidades e incidentes adversos.
     p.mb-5(data-aos="fade-right") Las siguientes son las características del monitoreo y análisis de #[em logs], en relación con la recopilación, correlación y almacenamiento de información:
 
     .row.justify-content-center.align-items-center.mb-5
