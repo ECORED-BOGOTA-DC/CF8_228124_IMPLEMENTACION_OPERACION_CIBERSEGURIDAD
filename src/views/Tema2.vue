@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.jpg')})`}" data-aos="fade-right"
           )
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
-            p.mb-0 Un #[b SIEM] Security Information and Event Management en inglés), es una definición utilizada para aplicaciones que involucran #[b SEM] (#[em Security Event Management] - Gestión de Eventos de Seguridad) que recoge, agrega y actúa sobre los eventos de seguridad y #[b SIM] (#[em Security Information Management] - Gestión de Información de Seguridad) que correlaciona, normaliza e informa sobre los datos de eventos de seguridad recogidos. Las herramientas SIEM ofrecen un análisis en tiempo real para eventos de seguridad generados en gran medida por la infraestructura de los sistemas de información (Avella, Calderón y Mateus, 2015).
+            p.mb-0 Un #[b SIEM] (Security Information and Event Management en inglés), es una definición utilizada para aplicaciones que involucran #[b SEM] (Security Event Management - Gestión de Eventos de Seguridad) que recoge, agrega y actúa sobre los eventos de seguridad y #[b SIM] (Security Information Management - Gestión de Información de Seguridad) que correlaciona, normaliza e informa sobre los datos de eventos de seguridad recogidos. Las herramientas SIEM ofrecen un análisis en tiempo real para eventos de seguridad generados en gran medida por la infraestructura de los sistemas de información (Avella, Calderón y Mateus, 2015).
 
     .BGM07.py-4.px-md-5.px-4.mb-5
       .row.justify-content-around.align-items-center

@@ -58,7 +58,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Fundamentos de SOC - <em>Security Operation Center</em>',
+        titulo: 'Fundamentos de SOC - Security Operation Center',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -110,7 +110,7 @@ export default {
         subMenu: [
           {
             numero: '6.1',
-            titulo: 'Estándares y <em>Frameworks</em>',
+            titulo: 'Estándares y <em>frameworks</em>',
             hash: 't_6_1',
           },
           {

@@ -99,7 +99,7 @@
                   .h5.mb-0 Sistema de detección de intrusiones (IDS).
                 li(style="margin-bottom: 2px")
                   i.fas.fa-chevron-circle-right(style="color: #FFB206;")
-                  .h5.mb-0 Proxies.
+                  .h5.mb-0 #[em Proxies].
           div.px-2(titulo="Servicio de correo")
             p Los #[em logs] que se presentan en los servicios de correo aportan información sobre el origen y destino de los mensajes, como: dirección del remitente y destinatario, IP del remitente y destinatario, fecha e ID del mensaje.
             .tarjeta.tarjeta--blanca.p-4
