@@ -81,7 +81,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Tipos de <em>Information Gathering</em>',
+            titulo: 'Tipos de Information Gathering',
             hash: 't_4_1',
           },
           {
@@ -91,7 +91,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: 'Aplicación de <em>Information Gathering</em>',
+            titulo: 'Aplicación de Information Gathering',
             hash: 't_4_3',
           },
         ],
@@ -162,7 +162,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/228124_CF08_DU.zip',
       },
       {
         icono: 'far fa-registered',
@@ -186,7 +186,7 @@ export default {
         'Avella, J., Calderón, L., y Mateus, C. (2015). <em>Guía metodológica para la gestión centralizada de registros de seguridad a través de un SIEM.</em>',
       tipo: 'Guía metodológica. Documento en línea',
       link:
-        'https://repository.ucatolica.edu.co/bitstream/10983/2847/1/GU%C3%8DA%20METODOL%C3%93GICA%20PARA%20LA%20GESTI%C3%93N%20CENTRALIZADA%20DE%20REGISTROS%20DE%20SEGURIDAD%20A%20TRAV%C3%89S%20DE%20UN%20SIEM.pdf',
+        'https://repository.ucatolica.edu.co/server/api/core/bitstreams/f233d3b4-04cb-4ba5-a9cd-26412e0f2b87/content',
     },
     {
       tema: '2. Fundamentos de SIEM',
@@ -266,7 +266,7 @@ export default {
     {
       termino: 'Activo de información',
       significado:
-        'elemento que tiene valor para un individuo, organizaciones o gobiernos. Es un componente el cual almacena, trata, muestra o transporta datos e información, pudiendo ser físicos o digitales, por ejemplo, una base de datos, software, sistemas de información, papel, discos duros, personas, procesos, etc.',
+        'elemento que tiene valor para un individuo, organizaciones o gobiernos. Es un componente el cual almacena, trata, muestra o transporta datos e información, pudiendo ser físicos o digitales, por ejemplo, una base de datos, <em>software</em>, sistemas de información, papel, discos duros, personas, procesos, etc.',
     },
     {
       termino: 'Evento de seguridad digital',
@@ -281,7 +281,7 @@ export default {
     {
       termino: 'Equipo de respuesta a incidentes',
       significado:
-        'equipo de una organización con miembros debidamente capacitados y confiables que se encarga de darle el manejo apropiado a los incidentes durante su ciclo de vida. Los equipos de respuesta a incidentes se conocen como equipo de respuesta a incidentes de seguridad de la información ISIRT, del inglés <em>Information Security Incident Response Team</em>. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, con el propósito de proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, etc.',
+        'equipo de una organización con miembros debidamente capacitados y confiables que se encarga de darle el manejo apropiado a los incidentes durante su ciclo de vida. Los equipos de respuesta a incidentes se conocen como equipo de respuesta a incidentes de seguridad de la información ISIRT, del inglés Information Security Incident Response Team. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, con el propósito de proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, etc.',
     },
     {
       termino: 'Incidente de seguridad digital',
@@ -340,7 +340,7 @@ export default {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -380,13 +380,13 @@ export default {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuador Instruccional',
           centro:
-            'Centro de gestión de mercados, Logística y Tecnologías de la información- Regional Distrito Capital ',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Centro de gestión de mercados, Logística y Tecnologías de la información- Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -397,19 +397,19 @@ export default {
           nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Diseñador web',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Nombre_responsable',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -420,19 +420,19 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },

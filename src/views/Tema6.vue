@@ -20,7 +20,7 @@
         .row.justify-content-center.px-4
           .col-lg-6.order-lg-1.order-2
             .h4 Equipo de respuesta a incidentes
-            p.mb-0 Equipo con miembros debidamente capacitados y confiables que se encarga de manejar, apropiadamente, los incidentes durante su ciclo de vida. Se conocen como #[b equipo de respuesta a incidentes de seguridad de la información ISIRT], del inglés #[em Information Security Incident Response Team]. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, para proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, entre otras.
+            p.mb-0 Equipo con miembros debidamente capacitados y confiables que se encarga de manejar, apropiadamente, los incidentes durante su ciclo de vida. Se conocen como #[b equipo de respuesta a incidentes de seguridad de la información ISIRT], del inglés Information Security Incident Response Team. Su función básica está orientada a detectar y responder frente a incidentes de seguridad de la información o seguridad digital, para proteger y recuperar los sistemas de información; aplicaciones, programas en red, servidores, entre otras.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema6/img02.png' alt="Imagen decorativa")
         .row.justify-content-center.px-4
@@ -115,16 +115,16 @@
               figure
                 img(src='@/assets/curso/tema6/img17.svg')
             .tarjeta.color-acento-contenido.p-3(x="29%" y="14%" numero="+")
-              .h4 #[em Data Center]
+              .h4 Data Center
               p.mb-0 Centros de datos conformados por equipos de infraestructura tecnológica y responsables de la ciberseguridad de los sistemas, servicios y elementos de la red.
             .tarjeta.color-acento-contenido.p-3(x="85%" y="30%" numero="+")
-              .h4 #[em SOC, Security Operation Center]
+              .h4 SOC, Security Operation Center
               p.mb-0 Centros de operación de seguridad que son responsables de la ciberseguridad de los sistemas, servicios y elementos de la red.
             .tarjeta.color-acento-contenido.p-3(x="28%" y="65%" numero="+")
               .h4 Departamentos de sistemas
               p.mb-0 Áreas de tecnología responsables de la ciberseguridad de los sistemas, servicios y elementos de la red.
             .tarjeta.color-acento-contenido.p-3(x="88%" y="60%" numero="+")
-              .h4 #[em NOC, Network Operation Center]
+              .h4 NOC, Network Operation Center
               p.mb-0 Centros de operación de redes de datos encargados de la ciberseguridad de los sistemas, servicios y elementos de la red.
         .col-lg-8.mb-5(data-aos="flip-up")
           .tarjeta.color-primario.p-4.text-white

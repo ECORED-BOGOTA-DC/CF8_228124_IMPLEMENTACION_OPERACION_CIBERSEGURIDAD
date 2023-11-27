@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
-        p(data-aos="fade-right") Dentro del proceso de #[em Ethical Hacking] - EH, la primera etapa consiste en recopilar la mayor cantidad de información posible para preparar las pruebas de análisis de vulnerabilidades y #[em Pentest] (Pruebas de Penetración a Sistemas). Esta etapa de recopilación de información se denomina #[em Information Gathering], este concepto se sustenta en que es un paso previo que un ciberdelincuente utiliza para recoger la mayor cantidad de datos posibles para preparar con mayor eficacia un ataque a una organización u objetivo. 
+        p(data-aos="fade-right") Dentro del proceso de Ethical Hacking - EH, la primera etapa consiste en recopilar la mayor cantidad de información posible para preparar las pruebas de análisis de vulnerabilidades y Pentest (Pruebas de Penetración a Sistemas). Esta etapa de recopilación de información se denomina Information Gathering, este concepto se sustenta en que es un paso previo que un ciberdelincuente utiliza para recoger la mayor cantidad de datos posibles para preparar con mayor eficacia un ataque a una organización u objetivo. 
         .cajon.color-acento-contenido.p-4(data-aos="fade-right") 
           p.mb-0 El atacante recolecta los datos de su objetivo por medio de fuentes públicas, tales como internet, buscadores, redes sociales y plataformas de acceso público; con la información que va recolectando, arma posibles vectores de ataque, para los cuales utilizará las herramientas técnicas que mejor le faciliten el lograr sus objetivos. 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
@@ -23,12 +23,12 @@
           p.mb-0 Afianzamiento ético y moral de las personas para promover el buen comportamiento y cumplimiento de los principios de seguridad de la información. Así, si una persona que se desenvuelve en el sector de las tecnologías de la información y la ciberseguridad debe mantener una conducta ética para la preservación de la seguridad en los sistemas y el entorno, gestionando de manera adecuada vulnerabilidades y amenazas y todo riesgo de ciberseguridad.
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema4/img02.png' alt="Imagen decorativa")
-      .row.justify-content-center.align-items-center(titulo="<em>Ethical Hacking</em>")
+      .row.justify-content-center.align-items-center(titulo="Ethical Hacking")
         .col-lg-8.order-lg-1.order-2
           p.mb-0 Proceso de seguridad digital donde personas o equipos de personas, expertos técnicos o profesionales, realizan pruebas de seguridad digital, simulando ataques controlados y previamente planificados a los sistemas y/o activos. Este proceso busca descubrir vulnerabilidades y malas configuraciones en los sistemas y/o tecnologías utilizadas en una empresa, para aplicar correcciones, actualizaciones y controles de seguridad digital.
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema4/img03.png' alt="Imagen decorativa")
-      .row.justify-content-center.align-items-center(titulo="Pasos del <em>Ethical Hacking</em>")
+      .row.justify-content-center.align-items-center(titulo="Pasos del Ethical Hacking")
         .col-lg-8.order-lg-1.order-2
           ul.lista-ul--color
             li(style="margin-bottom: 2px")
@@ -36,7 +36,7 @@
               | Establecimiento de objetivos y alcance.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
-              p.mb-0 Recopilación o #[em Information Gathering, Footprinting], escaneo y enumeración.
+              p.mb-0 Recopilación o Information Gathering, #[em Footprinting], escaneo y enumeración.
             li(style="margin-bottom: 2px")
               i.fas.fa-check-circle(style="color: #500C75;")
               | Ejecución, obtención de accesos y logro de objetivos planteados con evidencias.
@@ -82,7 +82,7 @@
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Tipos de #[em Information Gathering]
+      h2 4.1 Tipos de Information Gathering
     
     p(data-aos="fade-right") Los tipos de recolección de información hacen referencia a las distintas técnicas y variados métodos para dicha actividad; tales técnicas y métodos son de suma importancia y requieren ser comprendidas y asimiladas suficientemente con miras a su aplicación.
     p.mb-5(data-aos="fade-right") Ahora, se presenta una serie de tipos de técnicas de recopilación de información, se invita a estudiarlas a conciencia a través de la infografía:
@@ -162,44 +162,44 @@
 
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.3 Aplicación de #[em Information Gathering]
+      h2 4.3 Aplicación de Information Gathering
 
-    p.mb-5(data-aos="fade-right") La aplicación de las técnicas de recolección de información o #[em Information Gathering], pueden ser desarrolladas de manera planificada dentro de un proceso de #[em Ethical Hacking], siguiendo los principios éticos, profesionales y legales.
+    p.mb-5(data-aos="fade-right") La aplicación de las técnicas de recolección de información o Information Gathering, pueden ser desarrolladas de manera planificada dentro de un proceso de Ethical Hacking, siguiendo los principios éticos, profesionales y legales.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade-right")
-          p.mb-0 “La base para cualquier prueba de penetración exitosa es un reconocimiento sólido. Si no realiza una recopilación de información adecuada, tendrá que agitarse al azar, atacando máquinas que no son vulnerables y omitiendo otras que sí lo son” (#[em Offensive Security], 2021).
+          p.mb-0 “La base para cualquier prueba de penetración exitosa es un reconocimiento sólido. Si no realiza una recopilación de información adecuada, tendrá que agitarse al azar, atacando máquinas que no son vulnerables y omitiendo otras que sí lo son” (Offensive Security, 2021).
         p(data-aos="fade-right") Para la aplicación de las técnicas de recolección de información se pueden utilizar diversas herramientas técnicas, las cuales se listan a continuación:
         .row.justify-content-center
           .col-lg-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 FOCA
+                | FOCA
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Goofile
+                | Goofile
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Maltego
+                | Maltego
               li(style="margin-bottom: 2px" data-aos="fade-right")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Nessus Essentials
+                | Nessus Essentials
           .col-lg-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Nmap / ZenMap
+                | Nmap / ZenMap
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 NSLookup
+                | NSLookup
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 NTop
+                | NTop
               li(style="margin-bottom: 2px" data-aos="flip-up")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 OpenVas
+                | OpenVas
           .col-lg-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px" data-aos="fade-left")
@@ -210,10 +210,10 @@
                 | SPARTA
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Wireshark
+                | Wireshark
               li(style="margin-bottom: 2px" data-aos="fade-left")
                 i.far.fa-check-circle(style="color: #500C75;")
-                p.mb-0 Whois Lookup
+                | Whois Lookup
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema4/img13.png' alt="Imagen decorativa")
     
@@ -223,7 +223,7 @@
           img.mx-auto(src="@/assets/curso/tema2/img02.svg")
         .col-lg-6.col-md(data-aos="fade-left")
           .titulo-segundo.color-primario  
-            h3 Kali Tools / #[em Tool Documentation]
+            h3 Kali Tools / Tool Documentation
           p Conozca más herramientas y sus descripciones en kali.org Kali Linux Tools Listing.
           a.boton.color-acento-botones.texto-blanco(href="https://tools.kali.org/tools-listing" target="_blank")
             span Descargar

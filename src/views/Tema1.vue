@@ -55,7 +55,7 @@
                 .tarjeta.color-secundario.py-2(style="padding-top: 10px !important")
                   .h4.text-center.text-white.mb-0 De sistemas operativos y red
                 .p-4
-                  p.mb-0 #[em Logs] de #[em hosts], sistemas operativos, Windows, GNU/Linux y Routers    
+                  p.mb-0 #[em Logs] de #[em hosts], sistemas operativos, Windows, GNU/Linux y #[em Routers]    
         AcordionA(tipo="b" clase-tarjeta="tarjeta BG05" data-aos="fade-right")
           div.px-2(titulo="<em>Host</em>")
             p Son puntos de conexión final en una red, tales como computadores, tabletas y dispositivos móviles, los mismos generan diversos #[em logs] que se describen a continuación.
@@ -69,8 +69,8 @@
             p Es un sistema operativo #[em Open Source], que puede recopilar #[em logs] de acuerdo con el acceso de los usuarios, características del sistema, fallo en los intentos de conexión y utilización de recursos. Esto suministra ventajas de seguridad, porque puede descubrir usos indebidos rápidamente en sus registros, pero su desventaja es su gran volumen de registros complicando la gestión de información de los #[em logs].
             .tarjeta.tarjeta--blanca.p-4
               .h5.mb-0 El nombre y localización del fichero puede variar de acuerdo con variantes y versiones de GNU/Linux.
-          div.px-2(titulo="Routers")
-            p Los routers y switches registran eventos relacionados con la conectividad y acceso a redes. Estos registros, principalmente para seguridad, contienen detalles como direcciones IP, servicios, nombres de #[em hosts] y fechas de conexión, priorizando seguridad sobre funciones de red.
+          div.px-2(titulo="<em>Routers</em>")
+            p Los #[em routers] y #[em switches] registran eventos relacionados con la conectividad y acceso a redes. Estos registros, principalmente para seguridad, contienen detalles como direcciones IP, servicios, nombres de #[em hosts] y fechas de conexión, priorizando seguridad sobre funciones de red.
             .tarjeta.tarjeta--blanca.p-4
               .h5.mb-0 Este tipo de detalles de estos #[em logs], son relevantes para la correlación de eventos dentro de un sistema SIEM.
       .col-lg-5
@@ -99,7 +99,7 @@
                   .h5.mb-0 Sistema de detección de intrusiones (IDS).
                 li(style="margin-bottom: 2px")
                   i.fas.fa-chevron-circle-right(style="color: #FFB206;")
-                  .h5.mb-0 P’roxis.
+                  .h5.mb-0 Proxies.
           div.px-2(titulo="Servicio de correo")
             p Los #[em logs] que se presentan en los servicios de correo aportan información sobre el origen y destino de los mensajes, como: dirección del remitente y destinatario, IP del remitente y destinatario, fecha e ID del mensaje.
             .tarjeta.tarjeta--blanca.p-4
