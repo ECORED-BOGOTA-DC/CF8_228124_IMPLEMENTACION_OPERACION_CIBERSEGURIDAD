@@ -58,7 +58,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Fundamentos de SOC - Security Operation Center',
+        titulo: 'Fundamentos de SOC - <em>Security Operation Center</em>',
         desarrolloContenidos: true,
         subMenu: [
           {

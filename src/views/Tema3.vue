@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Fundamentos de SOC - Security Operation Center
+      h1 Fundamentos de SOC - #[em Security Operation Center]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2

@@ -118,7 +118,7 @@
               .h4 Data Center
               p.mb-0 Centros de datos conformados por equipos de infraestructura tecnológica y responsables de la ciberseguridad de los sistemas, servicios y elementos de la red.
             .tarjeta.color-acento-contenido.p-3(x="85%" y="30%" numero="+")
-              .h4 SOC, Security Operation Center
+              .h4 SOC, #[em Security Operation Center]
               p.mb-0 Centros de operación de seguridad que son responsables de la ciberseguridad de los sistemas, servicios y elementos de la red.
             .tarjeta.color-acento-contenido.p-3(x="28%" y="65%" numero="+")
               .h4 Departamentos de sistemas
