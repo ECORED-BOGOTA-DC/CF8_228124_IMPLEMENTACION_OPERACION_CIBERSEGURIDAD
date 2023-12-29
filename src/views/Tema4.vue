@@ -76,7 +76,9 @@
           img(src='@/assets/curso/tema4/img06.png' alt="Imagen decorativa")
       .row.justify-content-center.align-items-center(titulo="Delito cibernético")
         .col-lg-8.order-lg-1.order-2
-          p.mb-0 Forma emergente de delincuencia transnacional de rápido crecimiento. Al crecimiento y expansión del internet los delincuentes han logrado sacarle provecho. Con unos dos mil millones de usuarios mundialmente, el ciberespacio es el lugar ideal para los delincuentes, quienes pueden permanecer anónimos y acceder a todo tipo de información personal que se guarda en línea (Naciones Unidas, 2021).
+          p.mb-0 Forma emergente de delincuencia transnacional de rápido crecimiento. Al crecimiento y expansión del internet los delincuentes han logrado sacarle provecho. Con unos dos mil millones de usuarios mundialmente, el ciberespacio es el lugar ideal para los delincuentes, quienes pueden permanecer anónimos y acceder a todo tipo de información personal que se guarda en línea Naciones Unidas. (2021). <i>Delito cibernético</i>.
+            |  <a href="https://www.un.org/es/events/crimecongress2015/cibercrime.shtml " target="_blank"> #[strong https://www.un.org/es/events/crimecongress2015/cibercrime.shtml ] </a>
+
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema4/img07.png' alt="Imagen decorativa")
 
@@ -90,10 +92,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         TabsA.color-acento-contenido.mb-5
-          .tarjeta.BG10.p-4(titulo="<em>Footprinting</em>")
+          .tarjeta.BG10.p-4(titulo="<em>Footprinting</em> (huella)")
             .h4 <em>Footprinting</em> (huella)
             p.mb-0 Procedimiento que reúne gran cantidad de información de la víctima u objetivo. El #[em footprinting] es activo cuando se crea en el momento que los datos personales son divulgados de manera consciente y deliberada o cuando hay contacto con el propietario. Es huella pasiva o seudónima cuando se recolecta información sin el propietario, con lo anterior se puede exponer la seguridad del objetivo.
-          .tarjeta.BG10.p-4(titulo="Proceso de huella")
+          .tarjeta.BG10.p-4(titulo="Proceso de <em>footprinting</em>")
             .h4 Proceso de <em>footprinting</em>
             ul.lista-ul--color
               li(style="margin-bottom: 2px")
@@ -226,8 +228,8 @@
             h3 Kali Tools / Tool Documentation
           p Conozca más herramientas y sus descripciones en kali.org Kali Linux Tools Listing.
           a.boton.color-acento-botones.texto-blanco(href="https://tools.kali.org/tools-listing" target="_blank")
-            span Descargar
-            i.fas.fa-file-download
+            span Ir al link
+            i.fas.fa-link
 
 </template>
 
