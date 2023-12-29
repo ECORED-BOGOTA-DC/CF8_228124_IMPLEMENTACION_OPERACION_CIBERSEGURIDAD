@@ -76,8 +76,7 @@
           img(src='@/assets/curso/tema4/img06.png' alt="Imagen decorativa")
       .row.justify-content-center.align-items-center(titulo="Delito cibernético")
         .col-lg-8.order-lg-1.order-2
-          p.mb-0 Forma emergente de delincuencia transnacional de rápido crecimiento. Al crecimiento y expansión del internet los delincuentes han logrado sacarle provecho. Con unos dos mil millones de usuarios mundialmente, el ciberespacio es el lugar ideal para los delincuentes, quienes pueden permanecer anónimos y acceder a todo tipo de información personal que se guarda en línea Naciones Unidas. (2021). <i>Delito cibernético</i>.
-            |  <a href="https://www.un.org/es/events/crimecongress2015/cibercrime.shtml " target="_blank"> #[strong https://www.un.org/es/events/crimecongress2015/cibercrime.shtml ] </a>
+          p.mb-0 Forma emergente de delincuencia transnacional de rápido crecimiento. Al crecimiento y expansión del internet los delincuentes han logrado sacarle provecho. Con unos dos mil millones de usuarios mundialmente, el ciberespacio es el lugar ideal para los delincuentes, quienes pueden permanecer anónimos y acceder a todo tipo de información personal que se guarda en línea Naciones Unidas. (2021).
 
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema4/img07.png' alt="Imagen decorativa")
